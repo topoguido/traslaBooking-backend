@@ -1,4 +1,4 @@
-package ar.com.traslabooking.back;
+package ar.com.traslabooking.transactional.backend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

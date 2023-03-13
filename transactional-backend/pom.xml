@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>ar.com.traslabooking</groupId>
-	<artifactId>back</artifactId>
+	<artifactId>transactional-backend</artifactId>
 	<version>0.0.1</version>
 	<name>Transactional Backend</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Transactional Backend</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
