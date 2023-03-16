@@ -16,9 +16,11 @@ public class AccommImages extends Base{
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="id", unique = true, nullable = false)
     private Integer id;
+    
+    @ManyToOne
+    @JoinColumn(name = "idAccommodation")
+    private Accommodations accommodation;
 
-    @Column(name = "idAccommodation")
-    private Integer idAccommodation;
 
     @Column(name="imageUrl")
     private String imageUrl;

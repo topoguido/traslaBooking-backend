@@ -12,6 +12,7 @@ import lombok.*;
 @EqualsAndHashCode(callSuper=false)
 public class Amenities extends Base{
 
+    @Id
     @Column(name="id", nullable= false, unique=true)
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;

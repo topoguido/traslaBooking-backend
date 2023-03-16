@@ -11,10 +11,15 @@ import lombok.*;
 @AllArgsConstructor
 @EqualsAndHashCode(callSuper=false)
 public class AccommAmenities extends Base{
+    
+    @Id
+    @Column(name = "id", unique = true, nullable = false)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
 
     @ManyToOne
-    @JoinColumn(name = "id")
-    private Amenities amenities;
+    @JoinColumn(name = "idAmenitie")
+    private Amenities amenitie;
 
     @ManyToOne
     @JoinColumn(name = "idAccommodation")
