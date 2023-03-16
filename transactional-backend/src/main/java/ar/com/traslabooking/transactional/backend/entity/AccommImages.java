@@ -21,11 +21,13 @@ public class AccommImages extends Base{
     @JoinColumn(name = "idAccommodation")
     private Accommodations accommodation;
 
-
     @Column(name="imageUrl")
     private String imageUrl;
 
     @Column(name="principal")
     private Boolean principal;
+
+    @Column(name="host", length = 20)
+    private String host;
 
 }

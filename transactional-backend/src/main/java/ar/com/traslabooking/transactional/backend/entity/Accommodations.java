@@ -35,7 +35,7 @@ public class Accommodations extends Base{
     @Column(name = "additionalText", length = 500)
     private String additionalText;
 
-    @Column(name = "host", length = 50)
+    @Column(name = "host", length = 20)
     private String host;
 
     @Column(name = "hostContactInfo", length = 50)
